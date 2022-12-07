@@ -14,6 +14,7 @@ def create_file_structure(project_name):
     top_level_project_path = f"dev/{project_name}"
     source_dir_path = f"{top_level_project_path}/{source_folder_name}"
     test_dir_path = f"{top_level_project_path}/tests"
+    data_path = f"{top_level_project_path}/data"
 
     app_path = f"{source_dir_path}/app.py"
     utils_path = f"{source_dir_path}/utils.py"
@@ -23,6 +24,7 @@ def create_file_structure(project_name):
     # Create folder structure
     os.mkdir(top_level_project_path)
     os.mkdir(source_dir_path)
+    os.mkdir(test_dir_path)
     os.mkdir(test_dir_path)
 
     # Create init files for packages
