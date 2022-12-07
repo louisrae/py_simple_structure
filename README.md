@@ -1,6 +1,6 @@
 <div align="center">
-  <h3 align="center">TITLE</h3>
-  <p align="center">SHORT DESCRIPTION</p>
+  <h3 align="center">Simple Python Structure For Beginners</h3>
+  <p align="center">Easy Python Folder Structure</p>
 </div>
 
 ## About The Project
@@ -43,7 +43,7 @@ These are the things you need to use the software and how to install them.
 - [] Virtual Environment Creation Template
 - [] Upload To Pypi for pip installation
 
-See the [open issues](LINK) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/louisrae/project_structures/issues) for a full list of proposed features (and known issues).
 
 ## Contributing
 

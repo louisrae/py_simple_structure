@@ -7,9 +7,7 @@ from .utils import *
 def create_file_structure(project_name):
     os.chdir(os.path.expanduser(("~/Documents")))
     source_folder_name = project_name.lower()
-    templates_path = (
-        "/Users/louisrae/Documents/dev/ckiecutter/project_structures/project_structures"
-    )
+    templates_path = "/Users/louisrae/Documents/dev/ckiecutter/py_simple_structure/py_simple_structure"
 
     top_level_project_path = f"dev/{project_name}"
     source_dir_path = f"{top_level_project_path}/{source_folder_name}"
