@@ -12,5 +12,5 @@ echo Now run pyenv activate $new_virtual_environment
 
 echo Then run pip3 install -r $HOME/Documents/dev/requirements.txt
 
-echo Then run -rm $HOME/Documents/dev/requirements.txt
+echo Then run rm $HOME/Documents/dev/requirements.txt
 

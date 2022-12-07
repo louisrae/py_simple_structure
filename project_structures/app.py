@@ -8,7 +8,7 @@ def create_file_structure(project_name):
     os.chdir(os.path.expanduser(("~/Documents")))
     source_folder_name = project_name.lower()
     templates_path = (
-        "/Users/louisrae/Documents/dev/project_structures/project_structures"
+        "/Users/louisrae/Documents/dev/ckiecutter/project_structures/project_structures"
     )
 
     top_level_project_path = f"dev/{project_name}"
@@ -25,7 +25,7 @@ def create_file_structure(project_name):
     os.mkdir(top_level_project_path)
     os.mkdir(source_dir_path)
     os.mkdir(test_dir_path)
-    os.mkdir(test_dir_path)
+    os.mkdir(data_path)
 
     # Create init files for packages
     open(f"{source_dir_path}/__init__.py", "w")
